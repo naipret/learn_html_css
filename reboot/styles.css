@@ -1,0 +1,57 @@
+.body {
+    font-family: "Open Sans", sans-serif;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.body-light-mode {
+    background-color: #fafafa;
+    color: #1d1b1b;
+}
+
+.body-dark-mode {
+    background-color: #141414;
+    color: #dadada;
+}
+
+p {
+    font-size: larger;
+    text-align: justify; /* căn lề đều 2 bên */
+}
+
+a {
+    text-decoration: none; /* loại bỏ gạch chân mặc định của liên kết */
+}
+
+.dictionary {
+    font-size: large;
+    display: flex; /* sử dụng flex để hiển thị ngang */
+    flex-wrap: wrap; /* cho phép các phần tử xuống dòng khi không đủ không gian */
+    padding-left: 0; /* loại bỏ khoảng trắng lề trái mặc định của ol */
+    list-style-type: none; /* loại bỏ dấu chấm mặc định của ol */
+    gap: 10px; /* tăng khoảng cách giữa các phần tử của ol */
+    justify-content: flex-start; /* căn lề trái của các phần tử trong ol */
+}
+
+.button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.button-light-mode {
+    background-image: url("../src/img/light_mode.svg");
+}
+
+.button-dark-mode {
+    background-image: url("../src/img/dark_mode.svg");
+}
+
+.toggle-theme {
+    cursor: pointer; /* Thêm con trỏ cho nút */
+    font-size: 24px; /* Kích thước biểu tượng */
+}
