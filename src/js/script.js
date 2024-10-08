@@ -5,14 +5,14 @@ const body = document.body;
 
 // Thêm sự kiện lắng nghe cho nút
 toggleButton.addEventListener("click", () => {
-    // Chuyển đổi lớp CSS cho body giữa chế độ sáng và tối
-    body.classList.toggle("body-dark-mode");
-    // Chuyển đổi lớp CSS cho nút giữa chế độ sáng và tối
-    toggleButton.classList.toggle("button-dark-mode");
-    toggleButton.classList.toggle("button-light-mode"); // Thêm dòng này
+  // Chuyển đổi lớp CSS cho body giữa chế độ sáng và tối
+  body.classList.toggle("body-dark-mode");
+  // Chuyển đổi lớp CSS cho nút giữa chế độ sáng và tối
+  toggleButton.classList.toggle("button-dark-mode");
+  toggleButton.classList.toggle("button-light-mode"); // Thêm dòng này
 
-    // Đặt nội dung nút dựa trên chế độ
-    toggleButton.textContent = body.classList.contains("body-dark-mode") ? "" : "";
+  // Đặt nội dung nút dựa trên chế độ
+  toggleButton.textContent = body.classList.contains("body-dark-mode") ? "" : "";
 });
 
 // Lưu ý: Biểu tượng cho nút được định nghĩa trong file CSS (style.css)
