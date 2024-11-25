@@ -1,2 +1,2 @@
--   **Course:** https://www.w3schools.com/html/default.asp
--   **Roadmap:** https://roadmap.sh/frontend
+- **Course:** https://www.w3schools.com/html/default.asp
+- **Roadmap:** https://roadmap.sh/frontend
